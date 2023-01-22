@@ -1,0 +1,36 @@
+{
+  "namespace": "beycandeveloper",
+  "name": "@beycandeveloper/multi-chain-wallets",
+  "version": "0.1.0",
+  "description": "It allows you to easily connect and transact with many blockchain networks and their wallets.",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "parcel test.html --no-cache --dist-dir test",
+    "build": "webpack",
+    "push": "webpack && npm publish"
+  },
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeycanDeveloper/multi-chain-wallets.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum",
+    "Cryptocurrency",
+    "Multi blockchain wallets connection"
+  ],
+  "author": "Halil Beycan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeycanDeveloper/multi-chain-wallets/issues"
+  },
+  "homepage": "https://github.com/BeycanDeveloper/multi-chain-wallets",
+  "dependencies": {
+    "@beycandeveloper/eth-wallets": "^0.1.4"
+  }
+}

@@ -1,0 +1,1 @@
+declare module '@beycandeveloper/multi-chain-wallets';
